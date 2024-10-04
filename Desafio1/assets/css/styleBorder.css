@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+
+  .container {
+    position: relative;
+    text-align: center;
+  }
+
+  h1 {
+    position: absolute;
+    top: 50px;
+  }
+
+  img {
+    width: 350px;
+    cursor: pointer;
+  }
+
+  .border {
+    border: 2px solid red;
+  }
+}
